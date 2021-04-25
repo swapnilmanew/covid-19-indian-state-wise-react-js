@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hr-row {
+  background: #ff725e;
+  height: 5px;
+  border-radius: 7px;
+}
+img {
+  width: 80px;
+  animation: rotate 1s linear infinite;
+}
+h1 {
+  color: #ff725e;
+}
+.tb {
+  overflow-x: scroll;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
