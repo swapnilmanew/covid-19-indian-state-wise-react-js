@@ -27,13 +27,15 @@ const App = () => {
         </div>
         <h1 className="text-center mt-4 display-4 font-weight-bold">
           Indian State Wise Covid Statistics
-          <hr className="hr-row mb-4 w-50" />
+          <hr className="hr-row mb-5 w-50" />
         </h1>
-        <div className="row text-center my-5">
+        <h1 className="display-5 text-center font-weight-bold">Total</h1>
+
+        <div className="row text-center mb-5 mt-2">
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Total <br/> Confirmed</h2>
+                <h2>Confirmed</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.confirmed}</h3>
               </div>
@@ -42,7 +44,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Total <br/> Recoverd</h2>
+                <h2>Recoverd</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.recovered}</h3>
               </div>
@@ -51,7 +53,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Total <br/> Active</h2>
+                <h2>Active</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.active}</h3>
               </div>
@@ -60,7 +62,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Total <br/> Deaths</h2>
+                <h2>Deaths</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.deaths}</h3>
               </div>
