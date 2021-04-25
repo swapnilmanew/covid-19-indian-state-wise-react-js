@@ -30,7 +30,7 @@ const App = () => {
           <hr className="hr-row mb-4 w-50" />
         </h1>
         <div className="row text-center my-5">
-          <div className="col-6 col-md-3 col-sm-6 mx-auto my-2">
+          <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
                 <h2>Confirmed</h2>
@@ -39,7 +39,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3 col-sm-6 mx-auto my-2">
+          <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
                 <h2>Recoverd</h2>
@@ -48,7 +48,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3 col-sm-6 mx-auto my-2">
+          <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
                 <h2>Active</h2>
@@ -57,7 +57,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3 col-sm-6 mx-auto my-2">
+          <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
                 <h2>Deaths</h2>
