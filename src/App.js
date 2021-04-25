@@ -33,7 +33,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Confirmed</h2>
+                <h2>Total <br/> Confirmed</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.confirmed}</h3>
               </div>
@@ -42,7 +42,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Recoverd</h2>
+                <h2>Total <br/> Recoverd</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.recovered}</h3>
               </div>
@@ -51,7 +51,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Active</h2>
+                <h2>Total <br/> Active</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.active}</h3>
               </div>
@@ -60,7 +60,7 @@ const App = () => {
           <div className="col-11 col-md-3 col-sm-6 mx-auto my-2">
             <div className="card">
               <div className="card-body">
-                <h2>Deaths</h2>
+                <h2>Total <br/> Deaths</h2>
                 <hr className="hr-row w-50" />
                 <h3>{total.deaths}</h3>
               </div>
